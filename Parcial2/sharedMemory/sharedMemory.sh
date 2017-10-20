@@ -1,7 +1,5 @@
-#!/bin/bash
-
 #SBATCH --job-name=SobelFilter
-#SBATCH --output=SobelFilter.out
+#SBATCH --output=SobelFilter.txt
 #SBATCH --ntasks=1
 #SBATCH --nodes=1
 #SBATCH  --gres=gpu:1
@@ -12,13 +10,15 @@ export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64/${LD_LIBRARY_PATH:+:${LD_LIBRAR
 
 export CUDA_VISIBLE_DEVICES=0
 
-#./build/global.out ../images/gta.jpg
+#./build/sharedMem.out ../images/Balon.jpg
 
+#<<COMENT
 for i in {1..10}
 do
 	for j in {1..20}
 	do
-		./build/globalMemory.out ../images/image$i.jpg >> times.txt
+		./build/sharedMemory.out ../images/image$i.jpg >> times.txt
 	done
-	echo "Ready for image image$i.jpg"
+	echo "Ready for image img$i.jpg"
 done
+#COMENT

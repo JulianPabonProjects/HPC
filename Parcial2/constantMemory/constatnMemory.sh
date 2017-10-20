@@ -12,10 +12,10 @@ export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64/${LD_LIBRARY_PATH:+:${LD_LIBRAR
 
 export CUDA_VISIBLE_DEVICES=0
 
-./build/Image.out ../img/Balon.jpg
+#./build/ConstantMemory.out ../img/Balon.jpg
 
 
-<<COMENT
+#<<COMENT
 for i in {1..10}
 do
 	for j in {1..20}
@@ -24,4 +24,4 @@ do
 	done
 	echo "Ready for image img$i.jpg"
 done
-COMENT
+#COMENT
