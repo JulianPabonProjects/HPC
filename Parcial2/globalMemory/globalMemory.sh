@@ -18,7 +18,7 @@ for i in {1..10}
 do
 	for j in {1..20}
 	do
-		./build/Image.out ../../img/image$i.jpg >> times.txt
+		./Image.out ../img/image$i.jpg >> times.txt
 	done
 	echo "Ready for image image$i.jpg"
 done
