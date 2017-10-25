@@ -282,6 +282,8 @@ int main(int argc, char **argv){
 
   end = clock();
   time_used += ((double) (end - start)) /CLOCKS_PER_SEC;
+  
+   imwrite("imgR.jpg", h_G);
 
   printf ("%lf \n",time_used);
 
