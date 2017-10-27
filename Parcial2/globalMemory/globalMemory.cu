@@ -131,6 +131,7 @@ int main(int argc, char **argv){
   unsigned char *d_Gx, *d_Gy, *h_G, *d_G; // Operacion sobel
   int *d_XMask, *d_YMask;
   char* imageName = argv[1];
+  char* contImage = argv[2];
   Mat image;
 
   clock_t start, end;
@@ -282,6 +283,14 @@ int main(int argc, char **argv){
 
   end = clock();
   time_used += ((double) (end - start)) /CLOCKS_PER_SEC;
+
+  //Crea la Imagen Resultante
+  Mat result_img;
+  result_img.create(height, width, CV_8UC1);
+  result_img.data = h_G;
+  string nameImage = "imgR"+ string(contImage) +".jpg";
+  
+   imwrite(nameImage, result_img);
 
   printf ("%lf \n",time_used);
 
