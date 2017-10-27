@@ -137,7 +137,7 @@ int main(int argc, char **argv){
   clock_t start, end;
   double time_used;
 
-  if (argc != 2) {
+  if (argc != 3) {
     printf("Usage: Image path\n");
     return 1;
   }
