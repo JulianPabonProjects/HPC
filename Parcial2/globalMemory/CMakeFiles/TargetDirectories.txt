@@ -1,0 +1,3 @@
+/home/users/jpabon/HPC/Parcial2/globalMemory/CMakeFiles/edit_cache.dir
+/home/users/jpabon/HPC/Parcial2/globalMemory/CMakeFiles/rebuild_cache.dir
+/home/users/jpabon/HPC/Parcial2/globalMemory/CMakeFiles/Image.out.dir
