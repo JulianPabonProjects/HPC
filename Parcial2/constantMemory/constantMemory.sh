@@ -19,7 +19,7 @@ for i in {1..10}
 do
 	for j in {1..20}
 	do
-		./Image.out ../img/image$i.jpg $i >> times.txt
+		./Image.out ../img/image$i.jpg >> times.txt
 	done
 	echo "Ready for image img$i.jpg"
 done
