@@ -1,8 +1,6 @@
 #include<iostream>
 #include<stdio.h>
 #include<malloc.h>
-//#include <cv.h>
-//#include <highgui.h>
 #include<opencv2/opencv.hpp>
 using namespace std;
 using namespace cv;
@@ -70,9 +68,19 @@ int main(int argc, char **argv){
 
   	image = imread(imageName, 1);
 
-        if(argc !=2 || !image.data){
-            printf("No image Data \n");
-            return -1;
+        //if(argc !=2 || !image.data){
+        //    printf("No image Data \n");
+        //    return -1;
+        //}
+
+        if (argc != 2) {
+          printf("Usage: Image path\n");
+          return 1;
+        }
+
+        if(!image.data) {
+          print("No image Data\n");
+          return 1;
         }
 
         Size s = image.size();//sacamos los atributos de la imagen
