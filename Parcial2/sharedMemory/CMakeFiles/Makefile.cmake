@@ -10,7 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.5.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.5.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.5.1/CMakeSystem.cmake"
-  "CMakeFiles/image.out.dir/image.out_generated_sharedMemory.cu.o.depend"
+  "CMakeFiles/Image.out.dir/Image.out_generated_sharedMemory.cu.o.depend"
   "CMakeLists.txt"
   "/usr/local/share/OpenCV/OpenCVConfig-version.cmake"
   "/usr/local/share/OpenCV/OpenCVConfig.cmake"
@@ -46,11 +46,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/image.out.dir/image.out_generated_sharedMemory.cu.o.cmake"
+  "CMakeFiles/Image.out.dir/Image.out_generated_sharedMemory.cu.o.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/image.out.dir/DependInfo.cmake"
+  "CMakeFiles/Image.out.dir/DependInfo.cmake"
   )

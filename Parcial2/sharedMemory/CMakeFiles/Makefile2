@@ -60,39 +60,39 @@ CMAKE_SOURCE_DIR = /home/users/jpabon/HPC/Parcial2/sharedMemory
 CMAKE_BINARY_DIR = /home/users/jpabon/HPC/Parcial2/sharedMemory
 
 #=============================================================================
-# Target rules for target CMakeFiles/image.out.dir
+# Target rules for target CMakeFiles/Image.out.dir
 
 # All Build rule for target.
-CMakeFiles/image.out.dir/all:
-	$(MAKE) -f CMakeFiles/image.out.dir/build.make CMakeFiles/image.out.dir/depend
-	$(MAKE) -f CMakeFiles/image.out.dir/build.make CMakeFiles/image.out.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/users/jpabon/HPC/Parcial2/sharedMemory/CMakeFiles --progress-num=1,2 "Built target image.out"
-.PHONY : CMakeFiles/image.out.dir/all
+CMakeFiles/Image.out.dir/all:
+	$(MAKE) -f CMakeFiles/Image.out.dir/build.make CMakeFiles/Image.out.dir/depend
+	$(MAKE) -f CMakeFiles/Image.out.dir/build.make CMakeFiles/Image.out.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/users/jpabon/HPC/Parcial2/sharedMemory/CMakeFiles --progress-num=1,2 "Built target Image.out"
+.PHONY : CMakeFiles/Image.out.dir/all
 
 # Include target in all.
-all: CMakeFiles/image.out.dir/all
+all: CMakeFiles/Image.out.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/image.out.dir/rule: cmake_check_build_system
+CMakeFiles/Image.out.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/users/jpabon/HPC/Parcial2/sharedMemory/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/image.out.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Image.out.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/users/jpabon/HPC/Parcial2/sharedMemory/CMakeFiles 0
-.PHONY : CMakeFiles/image.out.dir/rule
+.PHONY : CMakeFiles/Image.out.dir/rule
 
 # Convenience name for target.
-image.out: CMakeFiles/image.out.dir/rule
+Image.out: CMakeFiles/Image.out.dir/rule
 
-.PHONY : image.out
-
-# clean rule for target.
-CMakeFiles/image.out.dir/clean:
-	$(MAKE) -f CMakeFiles/image.out.dir/build.make CMakeFiles/image.out.dir/clean
-.PHONY : CMakeFiles/image.out.dir/clean
+.PHONY : Image.out
 
 # clean rule for target.
-clean: CMakeFiles/image.out.dir/clean
+CMakeFiles/Image.out.dir/clean:
+	$(MAKE) -f CMakeFiles/Image.out.dir/build.make CMakeFiles/Image.out.dir/clean
+.PHONY : CMakeFiles/Image.out.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Image.out.dir/clean
 
 .PHONY : clean
 

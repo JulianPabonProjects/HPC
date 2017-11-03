@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named image.out
+# Target rules for targets named Image.out
 
 # Build rule for target.
-image.out: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 image.out
-.PHONY : image.out
+Image.out: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Image.out
+.PHONY : Image.out
 
 # fast build rule for target.
-image.out/fast:
-	$(MAKE) -f CMakeFiles/image.out.dir/build.make CMakeFiles/image.out.dir/build
-.PHONY : image.out/fast
+Image.out/fast:
+	$(MAKE) -f CMakeFiles/Image.out.dir/build.make CMakeFiles/Image.out.dir/build
+.PHONY : Image.out/fast
 
 # Help Target
 help:
@@ -131,7 +131,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... image.out"
+	@echo "... Image.out"
 .PHONY : help
 
 
